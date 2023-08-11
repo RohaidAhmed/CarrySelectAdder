@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "rca.ngc" rca.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rca_map.ncd rca.ngd rca.pcf 
+par -w -intstyle ise -ol high -t 1 rca_map.ncd rca.ncd rca.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rca.twx rca.ncd -o rca.twr rca.pcf 
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "rca.ngc" rca.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rca_map.ncd rca.ngd rca.pcf 
+par -w -intstyle ise -ol high -t 1 rca_map.ncd rca.ncd rca.pcf 
+xst -intstyle ise -ifn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.xst" -ofn "D:/University/7. FALL 2022/Digital System Design/Theory/CarrySelectAdder/rca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "rca.ngc" rca.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rca_map.ncd rca.ngd rca.pcf 
+par -w -intstyle ise -ol high -t 1 rca_map.ncd rca.ncd rca.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rca.twx rca.ncd -o rca.twr rca.pcf 

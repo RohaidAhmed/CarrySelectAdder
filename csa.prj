@@ -1,0 +1,3 @@
+verilog work "rca.v"
+verilog work "mux.v"
+verilog work "csa.v"
